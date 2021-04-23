@@ -137,7 +137,7 @@ function accion1() {
     caja1.innerText = "Trajeta de credito no reconocida,Ingrese una tarjeta de credito";
     caja1.classList.add("verificar-vacio")
     avisoBoton()
-  
+
     aviso.classList.add("aviso");
     caja1.appendChild(aviso);
   }
